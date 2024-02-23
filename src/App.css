@@ -146,15 +146,16 @@ img{
 /* ============================== BUTTONS =========================== */
 .button{
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 1.25rem 2rem;
+  background-color: orangered;
+  color: var(--title-color-dark);
+  padding: 0.5rem 1rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+
 }
 
 .button:hover{
-  background-color: var(--title-color-dark);
+  background-color: orange;
 }
 
 .button__icon{
@@ -171,10 +172,21 @@ img{
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+
+  .button{
+    padding: 0.3rem 0.6rem;
+  }
+
+  .button__icon{
+    width: 22px;
+    height: 22px;
+  }
 }
 /* for medium devices */
 @media screen and (max-width: 768px){
-
+  .section{
+    padding: 2rem 0 4rem;
+  }
 }
 
 @media screen and (max-width: 576px){

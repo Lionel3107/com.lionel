@@ -54,7 +54,7 @@ function Data() {
         ></path>
             </svg>
         </h1>    
-        <h3 className="home__subtitle"></h3>
+        <h3 className="home__subtitle">Visual Developer</h3>
         <p className="home__description">
             I'm a creative designer based in Ouagadougou, and I'm very passionate and dedicated to my
             work. My main focus is on digital product design but I also
