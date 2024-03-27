@@ -14,7 +14,6 @@ function Social() {
         <a href="" className="home__social-icon" target='blank'>
             <i className="uil uil-github-alt"></i>
         </a>
-        
     </div>
   )
 }
