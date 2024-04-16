@@ -115,7 +115,7 @@ img{
 
 /* ========== REUSABLE CLASS CSS ===================== */
 .section{
-  padding: 6rem 0 2rem;
+  padding: 4rem 0 2rem;
 }
 .section-title{
   font-size: var(--h1-font-size);
@@ -169,8 +169,8 @@ img{
 /* For large devices */
 @media screen and (max-width: 992px){
   .container{
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
   }
 
   .button{
